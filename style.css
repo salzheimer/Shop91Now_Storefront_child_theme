@@ -1,0 +1,43 @@
+/*
+ Theme Name:   Shop 91 - Storefront child theme
+ Theme URI:    
+ Description:  Shop 91 Now  Storefront Child Theme
+ Author:       Scott Alzheimer
+ Author URI:   http://example.com
+ Template:     storefront
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         	e-commerce, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, threaded-comments, accessibility-ready, rtl-language-support, footer-widgets, sticky-post, theme-options
+ Text Domain:  shop-91-now
+*/
+
+.entry-header{
+	display:none;
+}
+.homepageHeader{
+	position: relative;
+	width:100%;
+}
+.welcomeText{
+ position: absolute;
+ top:200px;
+left:0;
+width:100%;
+}
+.welcomeText>span{
+	color:#ffffff;
+}
+
+
+.homepageEducation >img,.homepageEducation > p > img,.homepageAbout >img,.homepageAbout >p>img{
+	float:left;
+	padding: 0;
+	margin: 0;
+}
+.educationDescription,.aboutDescription{
+	float:left;
+	width: 60%;
+	max-width:60%;
+	padding: 0 15px;
+}
