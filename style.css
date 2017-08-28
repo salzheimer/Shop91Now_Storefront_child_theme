@@ -67,6 +67,10 @@ margin-right: auto;
 	margin-right: auto;
 }
 /*product loop aka shop*/
+.woocommerce-loop-product__title{
+	font-size: 1.7rem !important;
+	margin-top:5px !important;
+}
 .loop_qty{
 	height:40px;
 	margin-left: auto;
@@ -85,6 +89,11 @@ margin-right: auto;
 	margin: 0px;
 	padding: 0px;
 	float: left;
+}
+
+/* single product view */
+.jp-relatedposts{
+	display: none !important;
 }
 @media screen and (max-width:800px){
 	

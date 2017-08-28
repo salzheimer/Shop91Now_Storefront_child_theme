@@ -48,4 +48,8 @@ function quantity_inputs_for_woocommerce_loop_add_to_cart_link( $html, $product 
 	return $html;
 }
 
+add_filter( 'default_checkout_billing_state', 'change_default_checkout_state' );
+function change_default_checkout_state() {
+  return 'OR'; // state code
+}
 ?>
