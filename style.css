@@ -67,6 +67,9 @@ margin-right: auto;
 	margin-right: auto;
 }
 /*product loop aka shop*/
+.shop91-wrapper {
+    max-width: 80%;
+}
 .woocommerce-loop-product__title{
 	font-size: 1.7rem !important;
 	margin-top:5px !important;

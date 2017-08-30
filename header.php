@@ -26,7 +26,7 @@
 	<?php do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
-		<div class="col-full">
+		<div class="col-full shop91header">
 
 			<?php
 			/**
@@ -58,6 +58,7 @@
  
 	<div id="content" class="site-content" tabindex="-1">
 <?php if(is_front_page()){ echo '<div class="container-fluid">';}
+elseif(is_page('shop91')){ echo '<div class="container-fluid shop91-wrapper">';}
 else {echo'<div class="col-full">';}
 ?>
 		<?php

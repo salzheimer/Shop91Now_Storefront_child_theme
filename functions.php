@@ -4,8 +4,8 @@
 add_action( 'wp_enqueue_scripts', 'add_bootstrap' );
 function add_bootstrap(){
 
-	wp_register_style('bootstrap.min',get_stylesheet_directory_uri().'/inc/bootstrap/css/bootstrap.min.css',array('storefront-style'));
-	wp_enqueue_style( 'bootstrap.min' );
+	wp_register_style('bootstrap',get_stylesheet_directory_uri().'/inc/bootstrap/css/bootstrap.css',array('storefront-style'));
+	wp_enqueue_style( 'bootstrap' );
 
 	// Register the script like this for a theme:
 	wp_register_script( 'bootstrap.min', get_stylesheet_directory_uri() . '/inc/bootstrap/js/bootstrap.min.js', array( 'jquery' ) );
@@ -30,6 +30,8 @@ function my_theme_enqueue_styles() {
 	// For either a plugin or a theme, you can then enqueue the script:
 	wp_enqueue_script( 'shop' );
 }
+
+
 
 require 'inc/shop91now-template-hooks.php';
 require 'inc/shop91now-template-functions.php';
